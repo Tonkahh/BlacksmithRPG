@@ -104,7 +104,7 @@ neoForge {
 sourceSets {
     main {
         java {srcDirs = ['src/main/java','src/api/java']}
-        resources {srcDirs = ['src/generated/resources']}
+        resources {srcDirs = ['src/generated/resources', 'src/main/resources']}
     }
 }
 
