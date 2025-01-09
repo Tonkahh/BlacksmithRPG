@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "blacksmithrpg:block/test_block4"
+    }
+  }
+}

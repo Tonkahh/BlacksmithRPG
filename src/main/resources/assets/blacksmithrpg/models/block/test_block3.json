@@ -2,8 +2,8 @@
   "credit": "Made with Blockbench",
   "texture_size": [64, 64],
   "textures": {
-    "0": "blacksmithrpg:block/furnace_sidelatch",
-    "particle": "blacksmithrpg:block/furnace_sidelatch"
+    "0": "blacksmithrpg:block/furnace_grate_compact_basalt",
+    "particle": "blacksmithrpg:block/furnace_grate_compact_basalt"
   },
   "elements": [
     {

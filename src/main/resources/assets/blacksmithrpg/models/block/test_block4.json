@@ -1,0 +1,56 @@
+{
+  "credit": "Made with Blockbench",
+  "texture_size": [64, 64],
+  "textures": {
+    "0": "blacksmithrpg:block/furnace_3cube",
+    "particle": "blacksmithrpg:block/furnace_3cube"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "north": {"uv": [0, 0, 4, 4], "texture": "#0"},
+        "east": {"uv": [0, 4, 4, 8], "texture": "#0"},
+        "south": {"uv": [4, 0, 8, 4], "texture": "#0"},
+        "west": {"uv": [4, 4, 8, 8], "texture": "#0"},
+        "up": {"uv": [4, 12, 0, 8], "texture": "#0"},
+        "down": {"uv": [12, 0, 8, 4], "texture": "#0"}
+      }
+    },
+    {
+      "from": [1, 16, 1],
+      "to": [15, 23, 15],
+      "rotation": {"angle": 0, "axis": "y", "origin": [0, 16, 0]},
+      "faces": {
+        "north": {"uv": [0, 12, 3.5, 13.75], "texture": "#0"},
+        "east": {"uv": [12, 0, 15.5, 1.75], "texture": "#0"},
+        "south": {"uv": [12, 1.75, 15.5, 3.5], "texture": "#0"},
+        "west": {"uv": [10.5, 12.75, 14, 14.5], "texture": "#0"},
+        "up": {"uv": [7.5, 11.5, 4, 8], "texture": "#0"},
+        "down": {"uv": [11.5, 4, 8, 7.5], "texture": "#0"}
+      }
+    },
+    {
+      "from": [2, 23, 2],
+      "to": [14, 32, 14],
+      "rotation": {"angle": 0, "axis": "y", "origin": [0, 23, 0]},
+      "faces": {
+        "north": {"uv": [10.5, 10.5, 13.5, 12.75], "texture": "#0"},
+        "east": {"uv": [7.5, 11, 10.5, 13.25], "texture": "#0"},
+        "south": {"uv": [4, 11.5, 7, 13.75], "texture": "#0"},
+        "west": {"uv": [11.5, 4, 14.5, 6.25], "texture": "#0"},
+        "up": {"uv": [10.5, 11, 7.5, 8], "texture": "#0"},
+        "down": {"uv": [13.5, 7.5, 10.5, 10.5], "texture": "#0"}
+      }
+    }
+  ],
+  "groups": [
+    {
+      "name": "group",
+      "origin": [8, 8, 8],
+      "color": 0,
+      "children": [0, 1, 2]
+    }
+  ]
+}
